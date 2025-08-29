@@ -65,7 +65,8 @@ function App() {
 
   useEffect(() => {
     // Fetch available locations from backend
-    fetch('http://localhost:3000/locations')
+    // fetch('http://localhost:3000/locations')
+    fetch('http://api/locations')
       .then(res => res.json())
       .then(data => setLocations(data))
       .catch(() => setLocations([]));
@@ -76,7 +77,7 @@ function App() {
     setShowBooks(true);
     setShowForm(false);
     try {
-      const url = location ? `http://localhost:3000/books?location=${encodeURIComponent(location)}` : 'http://localhost:3000/books';
+      const url = location ? `http://api/books?location=${encodeURIComponent(location)}` : 'http://localhost:3000/books';
       const res = await fetch(url);
       const data = await res.json();
       setBooks(data);
@@ -101,7 +102,7 @@ function App() {
     e.preventDefault();
     setMessage('');
     try {
-      const res = await fetch('http://localhost:3000/books', {
+      const res = await fetch('http://api/books', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
