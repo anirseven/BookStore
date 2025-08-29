@@ -1,0 +1,12 @@
+[
+  { "name": "The Great Gatsby", "author": "F. Scott Fitzgerald", "year": 1925, "location": "New York" },
+  { "name": "To Kill a Mockingbird", "author": "Harper Lee", "year": 1960, "location": "Boston" },
+  { "name": "1984", "author": "George Orwell", "year": 1949, "location": "Dublin" },
+  { "name": "Pride and Prejudice", "author": "Jane Austen", "year": 1813, "location": "Chennai" },
+  { "name": "The Alchemist", "author": "Paulo Coelho", "year": 1988, "location": "Bengaluru" },
+  { "name": "The Catcher in the Rye", "author": "J.D. Salinger", "year": 1951, "location": "Westlake" },
+  { "name": "Moby Dick", "author": "Herman Melville", "year": 1851, "location": "New York" },
+  { "name": "The Road", "author": "Cormac McCarthy", "year": 2006, "location": "Boston" },
+  { "name": "Ulysses", "author": "James Joyce", "year": 1922, "location": "Dublin" },
+  { "name": "Life of Pi", "author": "Yann Martel", "year": 2001, "location": "Chennai" }
+]
