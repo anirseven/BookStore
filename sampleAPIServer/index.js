@@ -61,3 +61,6 @@ app.post('/books', (req, res) => {
 app.listen(port, () => {
   console.log(`Library API server running at http://localhost:${port}`);
 });
+
+// For Vercel serverless deployment
+module.exports = app;
